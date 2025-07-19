@@ -106,3 +106,11 @@ Follow these steps to get your `alxtravelapp` backend up and running locally.
 ```bash
 git clone https://github.com/samuel-udoh/alxtravelapp.git
 cd alxtravelapp
+```
+
+**To Seed Database**
+```bash
+python manage.py makemigrations listing
+python manage.py migrate
+python manage.py seed
+```
